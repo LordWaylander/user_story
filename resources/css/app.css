@@ -1,0 +1,41 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bluejob {
+    color: #38485f;
+}
+.inputcreateclient{
+    background-color:#18274c;
+    border:none;
+    color:#ffffff;
+}
+.inputcreateclient:focus{
+    border:none;
+}
+
+.accordion-button:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #f2f2f2 !important;
+    color: #000000 !important;
+}
+.accordion-button{
+    background-color: #f2f2f2 !important;
+    color: #000000 !important;
+}
+
+.bg-gris{
+    background-color: #f2f2f2 !important;
+}
+
+.modal-footer{
+    border: none !important;
+}
+
+.modal-header{
+    border: none !important;
+}
